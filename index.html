@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pan Update form</title>
+    <style>
+       span {
+            color: red;
+        }
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+
+        }
+        *{
+            margin: 3px 1px 3ps 1px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div style="background-color:rgb(241, 208, 147);">
+        <div style="background-color: brown; color: white;">
+            <h5 style="text-align: center;">requested for the new PAN Card/changes or correction</h5>
+            <p style="font-style: italic; text-align: center;">Field marked with <span>*</span> (astrics) are mandatory
+            </p>
+
+        </div>
+        <div style="font-weight: bold;">
+            <table style="width: 100%;">
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <p style="display:inline;"><span>*</span>Whether he is a citizen of India</p>
+                        <div style="display:inline;">
+                            <label for="yes" style="padding-left:60px;">Yes</label>
+                            <input type="radio" id="yes">
+                            <label for="no" style="padding-left:20px;">No</label>
+                            <input type="radio" id="no">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                            <label for="pan"><span>*</span>Permanent sccount No</label>
+                            <input type="text" id="pan">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="" id="" style="margin: 3px 7px 3ps 3px;">
+                    </td>
+                    <td colspan="2">
+                        <span>*</span>
+                        1.Name
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <p style="display:inline;">Title</p>
+                        <div style="display:inline;">
+                            <label for="yes" style="padding-left:60px;">Shri/mr</label>
+                            <input type="radio" id="yes">
+                            <label for="no" style="padding-left:20px;">Smt/mrs</label>
+                            <input type="radio" id="no">
+                            <label for="no" style="padding-left:20px;">Kumari/mrs</label>
+                            <input type="radio" id="no">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                            <label for="last">Last Name/Surname</label>
+                            
+                            <label for="first" style="padding-left:200px;">First Name</label>
+                            
+                            <label for="middle" style="padding-left:200px;">Middle Name</label><br>
+                            <input type="text" id="last">
+                            <input type="text" id="first" >
+                            <input type="text" id="middle">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <span>*</span>
+                        Name as you would like it printed on the card<p style="color: blue;">(Prifix like Shri Smt not allowed)</p> 
+                    </td>
+                </tr>
+
+            </table>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
